@@ -9,7 +9,7 @@ int main() {
     unsigned int addresses[MAX_ADDRESS_COUNT];
     int num_accesses = 0;
 
-    FILE *file = fopen("addresses.txt", "r");
+    FILE *file = fopen("addresses1.txt", "r");
     if (!file) {
         printf("Can not access addresses.txt\n");
         return 1;

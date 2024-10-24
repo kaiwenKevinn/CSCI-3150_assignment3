@@ -97,7 +97,9 @@ One testcase is provided for you to validate your implementation. We show  this 
 
 Each row represents an access request for that address.
 
-The output of the program involves whether cache hits or not and the replacement status if missed like the followings for the case(If you don't implement the bonus part):
+The output of the program involves whether cache hits or not and the replacement status if missed like the followings for the case.
+
+(If you don't implement the bonus part):
 
 ```
 Using LRU replacement strategy：
@@ -174,7 +176,7 @@ Clock: Cache miss, replaced line 4
 
 Meanwhile, your implementation would be verified by some hidden testcases. You could refer to the tutorial slides to get some hints about how to implement this.
 
-**Please follow this format for output, because the automated test cases will be scored based on the output**
+**Please follow this format for output, because the your answer will be scored based on the output**
 
 
 ## 3. Submission Content
