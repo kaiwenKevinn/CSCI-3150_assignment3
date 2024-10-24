@@ -69,7 +69,17 @@ For create_cache, we have already completed part of the initialization of cache.
 
 For cache_access_lru, cache_access_lfu and cache_access_clock, they are the specific implementations of the three swapping algorithms. You need to check whether the cache hits, replace it if it does not hit, and print relevant information.
 
-One testcases is provided for you to validate your implementation. We show  this test case for your better understandings of this problem.
+You can use the following commands to get the result of your program:
+
+> make clean
+>
+> make
+>
+> ./cache_simulator
+
+Note: run make clean only when you have **new changes** to the code and want to see the new output
+
+One testcase is provided for you to validate your implementation. We show  this test case for your better understandings of this problem.
 
 ```txt
 0x1A2B
@@ -164,7 +174,7 @@ Clock: Cache miss, replaced line 4
 
 Meanwhile, your implementation would be verified by some hidden testcases. You could refer to the tutorial slides to get some hints about how to implement this.
 
-**Please strictly follow this format for output, because the automated test cases will be scored based on the output**
+**Please follow this format for output, because the automated test cases will be scored based on the output**
 
 
 ## 3. Submission Content
