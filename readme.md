@@ -176,7 +176,7 @@ Clock: Cache miss, replaced line 4
 
 Meanwhile, your implementation would be verified by some hidden testcases. You could refer to the tutorial slides to get some hints about how to implement this.
 
-**Please follow this format for output, because the your answer will be scored based on the output**
+**Please follow this format for output, because your answer will be scored based on the output**
 
 
 ## 3. Submission Content
