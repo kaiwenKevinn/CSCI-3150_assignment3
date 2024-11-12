@@ -22,6 +22,8 @@ In assignment three, you have two separate questions.
 
 2. When mapping addresses, how many parts is needed to divide logical address, and how many bits are in each part?
 
+**(Note that when dividing up the logical address, although there can be many possible solutions, they differ in the utilization of page directory/table entries, since a partially utilized page cannot be addressed/used to save other data. For this reason, the best solution should minimize the total number of entries that cannot be addressed in all levels of the page table, i.e. the overall memory wastage.)**
+
 
 
 (b)In a system where the main memory is byte-addressable and uses paging, the physical page frame size is 8 bytes. Each page table entry occupies 2 bytes. Process P has a logical address space of 64 bytes. The PCB of process P stores the physical page frame number of the outermost page table, which is 8. The diagram below shows the physical page frame numbers where each level of page tables for process P is stored (other contents of the page table entries are omitted). Please answer:	
